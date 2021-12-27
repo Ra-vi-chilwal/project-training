@@ -10,24 +10,40 @@
   box-shadow: none;
 }
 p{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 /* .serect-choice::before{
   content: url(../Images/Shapelight.svg);
 } */
+.weight01{
+  font-weight: 300;
+}
 .access-to{
-  padding-left: 21px;
+  padding-left: 29px;
+  font-weight: 300;
 }
 .get-start{
-    padding-top: 100px;
-    background: black;
+    padding-top: 50px;
+    background: rgb(4 5 10);;
 }
 .h-head{
     justify-content: space-between;
+    align-items: center;
 }
 .choose-1{
     align-items: center;
+
+}
+.cls-c0{
+  margin: 6px;
+}
+
+.rightinf{
+  margin-top: 0px;
+  margin-bottom: 0rem;
+  font-size: 13px;
+  font-weight: 600;
 }
 .wel-to{
     padding: 13px 14px 0px 10px;
@@ -36,16 +52,20 @@ p{
     border-radius: 0px 0px 10px 10px;   
 }
 .desc{
-    padding: 20px 20px 1px 20px;
+    padding: 20px 30px 1px 24px;
     border-radius: 10px 10px 0px 0px;
     margin-top: 0px;
-    background: #3c3c3d;
+    background: rgb(14 15 21);
+}
+.shapevb{
+  margin-bottom: 3px;
 }
 .Also-cls{
-    padding: 20px;
+    padding: 23px;
+    margin-bottom: -3px;
 }
 .bg-card4{
-    background: #26292e;
+    background: rgb(9 10 15);
     /* padding: 20px; */
     border-radius: 15px;
 
@@ -53,29 +73,39 @@ p{
 
     
 }
+.pd-re{
+  padding-left: 23px;
+}
 .poback{
-  padding-right: 20px;
+  padding-right: 32px;
 }
 .bg-card1{
-    background: #26292e;
-    padding: 20px;
+    background: rgb(12 13 18);
+    padding: 14px 28px;
     border-radius: 16px;
-    padding-bottom: 234px;
+    padding-bottom: 165px;
 }
 .bg-card2{
-    background: #26292e;
+    background: rgb(15 15 21);;
     
     border-radius: 16px;
     
 }
+/* .ic0::after{
+content: url(../Images/playic.svg);
+} */
 .vista-card{
     border-radius: 16px;
     background: #26292e;
     border: none;
 }
+.card-top0{
+  padding-top: 1.9rem;
+}
 .choose-cls{
-    padding: 18px 0px 1px 16px;   
-    border-radius: 20px;
+    padding: 1px 0px 1px 16px;   
+    border-radius: 11px;
+    background: rgb(12 11 17);
 }
 /* custom chek-box*/
 /* This css is for normalizing styles. You can skip this. */
@@ -95,7 +125,7 @@ p{
   }
   .micro-low{
     flex: 0 0 auto;
-    width: 19.666667%;
+    width: 19.8%;
   }
   .new{
       padding-right: 15px;
@@ -105,21 +135,72 @@ p{
     width: 19.92%;
   }
   .box-01{
-    width: 31px;
-    height: 29px;
-    background:#18191b;
+    width: 40px;
+    height: 40px;
+    background:rgb(16 17 22);
     border: none;
+    margin-bottom: 16px;
   }
   /* 01 input-box */
   .box-2{
-    width: 31px;
-    height: 29px;
-    background:rgb(14, 27, 53);
+    width: 40px;
+    height: 40px;
+    background:rgb(32 21 62);
     border: none;
   }
   .box-2:checked {
     background-color: rgb(14, 27, 53);
     border-color: transparent;
+}
+.star-pu{
+  padding: 18px 26px;
+}
+.atag {
+  color: rgb(88 87 206);
+  text-decoration: underline;
+}
+ul {
+  padding-left: 0rem;
+  margin-bottom: 1.5rem;
+ 
+ 
+}
+.ata{
+  color: rgb(88 87 206);
+  text-decoration: none;
+  font-weight: 500;
+}
+.stardex{
+  font-size: 31px;
+  font-weight: 700;
+  color:rgb(124 120 126)
+}
+.comyou{
+  font-size: 14px;
+  color:rgb(124 120 126)
+}
+.timmer{
+  padding-right: 17px;
+  color: rgb(236 230 252);
+  cursor: pointer;
+  font-size: 13px;
+}
+.ul-l{
+  background-color:rgb(11 12 17);
+  padding: 11px 20px;
+  margin-bottom: 0rem;
+}
+.ul-ls{
+  background-color: rgb(15 16 21);
+  padding: 11px 20px;
+  margin-bottom: 0rem;
+  border-radius: 0px 0px 13px 13px;
+}
+.uppr-time{
+  color: rgb(236 230 252);
+  cursor: pointer;
+  font-weight: 500;
+  font-size:14px;
 }
   /* on focus event */
   .form-check-input:focus {
@@ -142,15 +223,19 @@ p{
 }
   .star-01{
       border-radius: 10px;
-      background: #241674;
+      background: rgb(27 19 57);
   }
+  .bgo-star{
+    border-radius: 10px;
+    background: rgb(10 11 16);
+}
   .form-check-input:checked {
     background-color: #18191b; 
      border-color: transparent;
 }
 .video-react .video-react-big-play-button:before {
   content: "";
-  color: rgb(44, 44, 44);
+  color: rgb(116 97 227);
 }
   .boot-cls{
 
@@ -159,6 +244,7 @@ p{
     font-size: 54px;
     color: white;
     padding-top: 7px;
+    font-weight: 700;
   }
   .how0it{
     padding-top: 20px;
@@ -166,6 +252,7 @@ p{
   .what{
     font-size: 15px;
     padding-left: 12px;
+    font-weight: 400;
   }
   .boot{
       justify-content: space-between;
@@ -177,7 +264,12 @@ p{
     display: block;
     margin-bottom: 15px;
   }
-  
+  .mar-ilm{
+    display: block;
+      margin-bottom: 1px;
+      font-size: 13px;
+    font-weight: 600;
+  }
   .form-group input {
     padding: 0;
     height: initial;
@@ -255,7 +347,8 @@ p{
     padding-top: 120px;
   }
   .details{
-    padding-left: 60px;
+    padding-left: 74px;
+    font-weight: 400;
   }
   .form-group-1 input:checked + label:before {
     content: '';
@@ -273,9 +366,9 @@ p{
   .video-react .video-react-big-play-button {
     background: white;
     font-size: 3em;
-    line-height: 1.6em;
-    height: 1.8em;
-    width: 2em;
+    line-height: 1.9em;
+    height: 2em;
+    width: 2.1em;
     display: block;
     position: absolute;
     top: 45%;
@@ -301,7 +394,12 @@ p{
   color: aliceblue;
 }
 .serect-choice{
-  padding-left: 12px;
+  padding-left: 24px;
+  font-weight: 300;
+}
+.desc-01{
+  font-weight:500;
+  font-size: 15px;
 }
   /* mobile */
   /* @media screen and (min) */

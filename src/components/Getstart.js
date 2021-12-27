@@ -30,92 +30,134 @@ function Getstart() {
           <div className="row">
             <div className="col-xl-5 col-md-6 col-12">
               <div className="card bg-card1">
-                <div className="d-flex h-head">
-                  <p className="text-light">Welcome to Infinity NFTs</p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Welcome to Infinity NFTs</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
-                <div className="d-flex h-head">
-                  <p className="text-light">How iNFTs Work</p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">How iNFTs Work</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
-                <div className="d-flex h-head">
-                  <p className="text-light">What You Can Do with iNFTs</p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">What You Can Do with iNFTs</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
-                <div className="d-flex h-head">
-                  <p className="text-light">
-                    Building Your iNFTs Framework for success
-                  </p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Building your iNFT framework for Success</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
-                <div className="d-flex h-head">
-                  <p className="text-light">Access is the Key</p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Access is the Key</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
-                <div className="d-flex h-head">
-                  <p className="text-light">Time To Get Minting</p>
-
-                  <p className="term text-light">
-                    04:35 <img src={Icon} alt="" />
-                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Time To get Minting</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">04:35</span>
+                  <img src={Icon}/>
                 </div>
+                </li>
+              </ul>
               </div>
-              <div className="pt-3">
+              <div className="card-top0">
                 <div className="card bg-card2">
-                  <div className="bg-dark top-0 desc h-head d-flex ">
-                    <p className="text-light">Resources</p>
+                  <div className=" top-0 desc h-head d-flex ">
+                    <p className="text-light pd-re">Resources</p>
                     <p className="text-light">download</p>
                   </div>
                   <div className="">
-                    <div className="d-flex h-head ">
-                      <p className="text-light wel-to">
-                        Welcome to Infinity NFTs
-                      </p>
-
-                      <p className="term text-light wel-to">
-                        04:35 <img src={Coolicon} alt="" />
-                      </p>
-                    </div>
-                    <div className="d-flex h-head bg-dark">
-                      <p className="text-light wel-to">How iNFTs Work</p>
-
-                      <p className="term text-light wel-to">
-                        04:35 <img src={Coolicon} alt="" />
-                      </p>
-                    </div>
-                    <div className="d-flex h-head">
-                      <p className="text-light wel-to">
-                        What You Can Do with iNFTs
-                      </p>
-
-                      <p className="term text-light wel-to">
-                        04:35 <img src={Coolicon} alt="" />
-                      </p>
-                    </div>
-                    <div className="d-flex h-head bg-dark ls-0">
-                      <p className="text-light wel-to">
-                        What You Can Do with iNFTs
-                      </p>
-
-                      <p className="term text-light wel-to">
-                        04:35 <img src={Coolicon} alt="" />
-                      </p>
-                    </div>
+                  <ul className="ul-l">
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">iNFT Rapid Mint framework</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">2.1mb</span>
+                  <img src={Coolicon}/>
+                </div>
+                </li>
+              </ul>
+              <ul className="ul-ls">
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">iNFT Card Design Template</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">5.4mb</span>
+                  <img src={Coolicon}/>
+                </div>
+                </li>
+              </ul>
+              <ul className="ul-l">
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Acces Token Card Template</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">3.1mb</span>
+                  <img src={Coolicon}/>
+                </div>
+                </li>
+              </ul>
+              <ul className="ul-ls">
+                <li className="d-flex h-head">
+                  <div>
+                    <span className="uppr-time">Starstake Images</span>
+                  </div>
+                
+                <div>
+                  <span className="timmer">0.9mb</span>
+                  <img src={Coolicon}/>
+                </div>
+                </li>
+              </ul>
                   </div>
                 </div>
               </div>
@@ -134,15 +176,15 @@ function Getstart() {
                 </div>
               </div>
               <div className="pt-3">
-                <div className="card bg-dark choose-cls">
-                  <div className="d-flex h-head choose1">
-                    <p className="text-light">
-                      <img src={Shapevide} alt="" className="pl-2" /> Choose the
+                <div className="card  choose-cls ">
+                  <div className="d-flex h-head choose1 cls-c0">
+                    <p className="text-light rightinf">
+                      <img src={Shapevide} alt="" className="pl-2 shapevb" /> &nbsp; Choose The
                       right iNFTs
                     </p>
                     <div class="new">
                       <form>
-                        <div class="form-group ">
+                        <div class="form-group mar-ilm">
                           <input type="checkbox" id="html" />
                           <label className="text-light" for="html">
                             Complete
@@ -154,24 +196,24 @@ function Getstart() {
                 </div>
               </div>
               <p className="pt-3 text-light serect-choice">
-                <img src={Shapelight} alt="" /> Secret: Choosing the right iNFTs
-                isn't always about royalties, attention to the value of your
-                <p className="text-light access-to">accesss tokens.</p>
+                <img src={Shapelight} alt="" /> &nbsp; Secret: Choosing the right iNFTs
+                isn't always about royalties, attention to the value of 
+                <p className="text-light access-to">your accesss tokens.</p>
               </p>
               <div className="card bg-card4">
-                <div className="bg-dark top-0 desc">
-                  <p className="text-light">Description & Links</p>
+                <div className=" top-0 desc">
+                  <p ><strong className="text-light desc-01">Description & Links</strong></p>
                 </div>
                 <div>
                   <div className="Also-cls">
-                    <p className="text-light">
+                    <p className="text-light weight01">
                       Here's the hub mentioned in the video.
-                      <a href="#">Click here.</a>
+                      <a className="atag" href="#">Click here.</a>
                     </p>
-                    <p className="text-light">
+                    <p className="text-light weight01">
                       Also checkout the other trainings to know the framework{" "}
-                      <br className="m-gapp" /> better.
-                      <a href="#">www.starstake.com/?/ASKF824eSDFNJH4JNFSNF</a>
+                      better. <br className="m-gapp" />
+                      <a className="atag" href="#">www.starstake.com/?/ASKF824eSDFNJH4JNFSNF</a>
                     </p>
                   </div>
                 </div>
@@ -200,7 +242,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">02</p>
@@ -216,7 +258,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">03</p>
@@ -232,7 +274,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">04</p>
@@ -248,7 +290,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">05</p>
@@ -266,7 +308,7 @@ function Getstart() {
               </div>
               <div className="row how0it">
               <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">06</p>
@@ -282,7 +324,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">07</p>
@@ -298,7 +340,7 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bg-dark star-01">
+                  <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
                         <p className="card01">08</p>
@@ -314,7 +356,13 @@ function Getstart() {
                   </div>
                 </div>
                 <div className="col-xl-4 col-12 micro-top">
-                  <img className="micro" src={Microsoft} alt="" />
+                <div className="position-relative" >
+                <div className="position-absolute star-pu">
+                <span className=" stardex">STARDEX AWAITS!<br/></span><span className="comyou">Complete Your Starstake Milestones <br/>and get a piece of <a className="ata" href="#">STARDEX</a>.</span></div>
+                {/* <p className="">Complete your StarStake Millstones<br/>and get a piece of <a href="#"> STARDEXTM</a>
+                </p> */}
+                  <img className="micro " src={Microsoft} alt="" />
+                </div>
                 </div>
               </div>
             </div>
