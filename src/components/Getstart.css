@@ -1,0 +1,343 @@
+
+.containe {
+    padding: 18px 30px 14px 49px;
+}
+.mar-tp{
+  padding-top: 8px;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+/* .serect-choice::before{
+  content: url(../Images/Shapelight.svg);
+} */
+.access-to{
+  padding-left: 21px;
+}
+.get-start{
+    padding-top: 100px;
+    background: black;
+}
+.h-head{
+    justify-content: space-between;
+}
+.choose-1{
+    align-items: center;
+}
+.wel-to{
+    padding: 13px 14px 0px 10px;
+}
+.ls-0{
+    border-radius: 0px 0px 10px 10px;   
+}
+.desc{
+    padding: 20px 20px 1px 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0px;
+    background: #3c3c3d;
+}
+.Also-cls{
+    padding: 20px;
+}
+.bg-card4{
+    background: #26292e;
+    /* padding: 20px; */
+    border-radius: 15px;
+
+    /* padding-bottom: 19px; */
+
+    
+}
+.poback{
+  padding-right: 20px;
+}
+.bg-card1{
+    background: #26292e;
+    padding: 20px;
+    border-radius: 16px;
+    padding-bottom: 234px;
+}
+.bg-card2{
+    background: #26292e;
+    
+    border-radius: 16px;
+    
+}
+.vista-card{
+    border-radius: 16px;
+    background: #26292e;
+    border: none;
+}
+.choose-cls{
+    padding: 18px 0px 1px 16px;   
+    border-radius: 20px;
+}
+/* custom chek-box*/
+/* This css is for normalizing styles. You can skip this. */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .micro{
+    width: 100%;
+  }
+  .micro-top{
+    flex: 0 0 auto;
+    width: 39.333333%;
+  }
+  .micro-low{
+    flex: 0 0 auto;
+    width: 19.666667%;
+  }
+  .new{
+      padding-right: 15px;
+     
+  }
+  .lst-11{
+    width: 19.92%;
+  }
+  .box-01{
+    width: 31px;
+    height: 29px;
+    background:#18191b;
+    border: none;
+  }
+  /* 01 input-box */
+  .box-2{
+    width: 31px;
+    height: 29px;
+    background:rgb(14, 27, 53);
+    border: none;
+  }
+  .box-2:checked {
+    background-color: rgb(14, 27, 53);
+    border-color: transparent;
+}
+  /* on focus event */
+  .form-check-input:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus {
+  outline: 0;
+  border-color: #fff;
+  /* background-color: #73859f; */
+  /* background-color: rgba(115, 133, 159, 0.5); */
+  transition: all 0s;
+}
+.video-react:hover .video-react-big-play-button{
+  background-color: #fff;
+}
+.video-react-has-started .video-react-control-bar{
+  margin-bottom: 60px;
+}
+  .star-01{
+      border-radius: 10px;
+      background: #241674;
+  }
+  .form-check-input:checked {
+    background-color: #18191b; 
+     border-color: transparent;
+}
+.video-react .video-react-big-play-button:before {
+  content: "";
+  color: rgb(44, 44, 44);
+}
+  .boot-cls{
+
+  }
+  .card01{
+    font-size: 54px;
+    color: white;
+    padding-top: 7px;
+  }
+  .how0it{
+    padding-top: 20px;
+  }
+  .what{
+    font-size: 15px;
+    padding-left: 12px;
+  }
+  .boot{
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 12px;
+      padding-right: 33px;
+  }
+  .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #2240a0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  /* form-group */
+  .form-group-1 {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group-1 input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group-1 label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group-1 label:after {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #2240a0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .sec-2{
+    padding-top: 120px;
+  }
+  .details{
+    padding-left: 60px;
+  }
+  .form-group-1 input:checked + label:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  /* video icon css */
+  .video-react .video-react-big-play-button {
+    background: white;
+    font-size: 3em;
+    line-height: 1.6em;
+    height: 1.8em;
+    width: 2em;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    border: 2px solid #fff;
+    background-color: #fdfdfd;
+    /* background-color: transparent; */
+    border-radius: 50%;
+    transition: all 0.4s;
+    
+}
+.video-react .video-react-control:before {
+  font-size: 1.8em;
+  line-height: 1.67;
+  color: aliceblue;
+  background-color: #2240a0;
+}
+.video-react *, .video-react *:before, .video-react *:after {
+  box-sizing: inherit;
+  color: aliceblue;
+}
+.serect-choice{
+  padding-left: 12px;
+}
+  /* mobile */
+  /* @media screen and (min) */
+  @media  screen and (min-width:350px)and (max-width:1100px) {
+.micro-low{
+  flex: 0 0 auto;
+    width: 50%;
+    padding: 12px;
+  }
+  .access-to {
+    padding-left: 0px;
+}
+.micro-top{
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 20px;
+
+}
+  }
+  @media  screen and (min-width:320px)and (max-width:480px) {
+    .poback{
+      display: none;
+    }
+    .details {
+      padding-left: 0px;
+  }
+  .boot {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
+  }
+  @media  screen and (min-width:320px)and (max-width:767px) {
+    .poster-o{
+      padding-top: 15px;
+    }
+  }

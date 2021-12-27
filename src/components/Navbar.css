@@ -1,0 +1,125 @@
+
+.links-Nav_Y2Y{
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color:rgb(180, 150, 150);
+    padding-left: 0px;
+   
+    
+    transition: .3s;
+  }
+  .Nav-Link{
+    padding-right:20px;
+  }
+  .top-logo{
+    padding-left: 40px;
+  }
+  .bg-colr{
+      background-color: gray;
+      border-radius: 25px;
+      margin: 0px 14px;
+      border-radius: 100px;
+      font-family: "Poppins";
+      padding:7px 18px 7px 18px;
+  }
+  /* .navbar-nav > Nav.Link{
+
+    padding-right:20px;
+  } */
+  .market-1{
+      margin-left: 70px;
+  }
+  .mar-01{
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-top: 5px;
+  }
+  .navbar-nav > button{
+    /* margin-left:12px; */
+    margin-right:12px;
+ font-size: 13px;
+  }
+  .bell_0{
+    font-family: "setif";
+  }
+  .fas{
+    color: white;
+  } 
+  .btn-wallet{
+    background: -webkit-linear-gradient(
+      45deg,#85ffc4,#5cc6ff,#bc85ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Poppins";
+  }
+  .btn-connect-wallet{
+    margin: 0px 14px;
+    border-radius: 100px;
+    font-family: "Poppins";
+    padding:7px 18px 7px 18px;
+    background: #2c2935;
+    
+  }
+  .btn-ox{
+    margin-left: -40px;
+  }
+.btn-waal{
+    color: white;
+    padding-right: 12px;
+}
+
+.nav_bell{
+    background: #3d23d4;
+    border-radius: 25px;
+    padding: 2px 12px 2px 12px;
+    margin: 6px 6px;
+    font-size: 11px;
+  }
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+  @media  screen and (min-width:992px)and (max-width:1212px) {
+    .market-1 {
+      margin-left: 0px;
+  }
+  .navbar-nav > button {
+    /* margin-left: 12px; */
+    margin-right: 12px;
+    font-size: 12px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.links-Nav_Y2Y {
+  font-size: 12px;
+}
+.top-logo{
+  padding-left: 0px;
+}
+  }
+  @media  screen and (min-width:340px)and (max-width:991px) {
+    .links-Nav_Y2Y{
+     display: flex;
+    text-align: center;
+  
+    }
+    .market-1 {
+      margin-left: 0px;
+  }
+  .navbar-nav > button{
+   width: 33%;
+ margin-top: 12px;
+  }
+  .btn-ox {
+    margin-left: 12px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  /* padding-right: 1.5rem; */
+  padding-left: 2.5rem;
+}
+  }
