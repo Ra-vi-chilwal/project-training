@@ -127,6 +127,8 @@
   .navbar-nav > button{
    width: 33%;
  margin-top: 12px;
+ margin-left: 12px;
+ padding: 7px;
   }
   .btn-ox {
     margin-left: 12px;

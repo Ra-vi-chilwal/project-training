@@ -1,5 +1,5 @@
 import React from "react";
-import {Nav,NavDropdown,Navbar,Container} from "react-bootstrap"
+import {Nav,Navbar} from "react-bootstrap"
 import './Navbar.css';
 import wallet from "../Images/wallet-icon-A.svg";
 import cartIcon from "../Images/CartIcon.svg";
@@ -16,34 +16,34 @@ function Navba() {
       <Nav.Link href="#pricing" className=" text-light links-Nav_Y2Y">How it works</Nav.Link>
       <Nav.Link href="#features" className="text-light links-Nav_Y2Y">Be a Star</Nav.Link>
       <Nav.Link href="#pricing" className=" text-light links-Nav_Y2Y">Resorces</Nav.Link>
-      <button type="button" class="btn btn-connect-wallet">
+      <button type="button" className="btn btn-connect-wallet">
                     <span className="btn-wallet"><strong>Stake</strong></span>
                   </button>
                   <button
                     type="button"
                     id="btn-57-nav"
-                    class="mt-57 btn   bg-colr text-light"
+                    className="mt-57 btn   bg-colr text-light"
                   >
                     <span className="btn-waal"><strong className="text-light">$10,000 NFTB</strong></span>
                   </button>
                   <button
                     type="button"
                     id="btn-57-nav"
-                    class="mt-57 btn  btn-connect-wallet btn-ox"
+                    className="mt-57 btn  btn-connect-wallet btn-ox"
                   >
                     <span className="btn-wallet"><strong>0xBBB6...E96e</strong></span>
                   </button>
-                  <button class="btn text-light  nav_bell" type="button">
-                    <i class="fas fa-bell ">
+                  <button className="btn text-light  nav_bell" type="button">
+                    <i className="fas fa-bell ">
                       <span className="bell_0 text-light"> 10</span>
                     </i>
                   </button>
-                  <span class="img-wallet mar-01">
-                    <img className="wakk" src={wallet} />
+                  <span className="img-wallet mar-01">
+                    <img className="wakk" alt="" src={wallet} />
                    
                   </span>
-                  <span class="img-cart mar-01 mar-tp">
-                    <img src={cartIcon} />
+                  <span className="img-cart mar-01 mar-tp">
+                    <img  alt="" src={cartIcon} />
                   </span>
     </Nav>
     
