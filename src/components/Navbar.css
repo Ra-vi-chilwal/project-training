@@ -1,9 +1,42 @@
+/* hover effect */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*  */
+
 .navbar{
-  background-color: rgb(13 13 19);;
+  background: #0a0c15;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
 }
 .wakk{
   margin-right: 3px;
   margin-top: 3px;
+  cursor: pointer;
+}
+.icon-for{
+  display: none;
 }
 .links-Nav_Y2Y{
 
@@ -47,6 +80,7 @@
     margin-left: 4px;
     margin-right: 4px;
     padding-top: 2px;
+    cursor: pointer;
 
   }
   .navbar-nav > button{
@@ -84,7 +118,12 @@
     padding-right: 12px;
     font-size: 14px;
 }
-
+.mar-bot{
+  margin-bottom: 1px;
+}
+.font-for{
+  font-family: sans-serif;
+}
 .nav_bell{
     background: #3d23d4;
     border-radius: 25px;
@@ -123,12 +162,23 @@
     .links-Nav_Y2Y{
      display: flex;
     text-align: center;
-  
-    }
+  }
+  .btn-for-0{
+    display: none;
+  }
+  .mar-01 {
+    margin-left: 6px;
+    margin-right: 12px;
+    padding-top: 0px;
+}
     .mobile-btn{
       display: flex;
       justify-content: center;
       padding-top: 10px;
+    }
+    .icon-for{
+      display: inline;
+      justify-content: end;
     }
     .bg-colr {
      

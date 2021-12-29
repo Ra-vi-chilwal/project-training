@@ -9,16 +9,17 @@ import VideoEle from "./VideoEle";
 import MulCard from "./MulCard";
 import micr from "../Images/Micr.png"
 
-
 function Getstart() {
+  
   return (
     <>
     
-     <section className="count-pg">
-      <div className="get-start">
-        <div className="containe">
+
+     <section className="count-pg p-lg-5 p-2">
+      <div className="container">
+        <div className="contain">
         <div className="d-flex spce">
-         
+     
             {" "}
             <img className="poback" alt="" src={backIcon} /> 
              <h2 className="text-light h2-font">Get Started with StarStake
@@ -29,11 +30,12 @@ function Getstart() {
           </p>
         </div>
         <div className="containe pt-5">
-          <div className="row">
+        <div className=" position-relative backgr-img">
+          <div className="row z-index-1">
             <div className="col-xl-5 col-md-6 col-12">
+              {/* <img className="position-absolute  mirc-img" src={micr}/> */}
               <div className="card bg-card1">
-              <img className="position-absolute start-0 top-0 mirc-img" src={micr}/>
-                <ul>
+                <ul className="position-relative">
                   <li className="d-flex h-head li-pd">
                     <div>
                       <span className="uppr-time">
@@ -178,6 +180,7 @@ function Getstart() {
             <div className="col-xl-7 col-md-6 col-12 poster-o">
             <VideoEle />
             </div>
+          </div>
           </div>
           {/* section 2 million Stone  */}
           <MulCard />

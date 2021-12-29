@@ -6,6 +6,7 @@ import { Player } from "video-react";
 function VideoEle(){
     return(
         <>
+        
 <div className="card vista-card">
                 
                 <div className="">
@@ -65,10 +66,13 @@ function VideoEle(){
                       <a className="atag" href="_blank">
                         www.starstake.com/?/ASKF824eSDFNJH4JNFSNF
                       </a>
+       
                     </p>
                   </div>
                 </div>
+       
               </div>
+    
         </>
     )
 }

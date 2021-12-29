@@ -8,12 +8,28 @@
   background-size: cover;
   width: 100%;
 }
+.backgr-img::after{
+  content: "";
+background-image: url("../Images/Micr.png");
+position: absolute;
+background-size:100% 100%;
+top: -270px;
+left: -50%;
+right: -50%;
+bottom: 0;
+background-size: 100% 100%;
+
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
 .mirc-img{
   background-size: cover;
-    width: 182%;
+    width: 100%;
 }
-.containe {
-  padding: 18px 47px 15px 32px;
+.contain {
+  padding-top: 55px;
 }
 .get-start {
   padding-top: 50px;
@@ -35,7 +51,7 @@
 
   /* padding: 14px 28px; */
   border-radius: 16px;
-  padding-bottom: 168px;
+  padding-bottom: 156px;
 }
 .li-pd:hover {
   background: linear-gradient(to right, rgb(54, 17, 156) -11%, transparent 15%);
@@ -99,9 +115,97 @@
 .sec-2 {
   padding-top: 120px;
 }
+.bgo-star1 {
+  border-radius: 10px;
+  background: rgb(10 11 16);
+  overflow: hidden;
+}
+ .shape-point{
+   z-index: 3;
+ }       
+/* .arrow-pointer {
+  width: 250px;
+  height: 50px;
+  background: #32557f;
+  position: relative;
+}
+  .arrow-pointer:after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: 0; width: 0; height: 0;
+    border-left: 25px solid #7eb4e2;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  }
+
+  .arrow-pointer:before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #32557f;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+
+} */
+    
+
+ .bgo-star1::before{
+  content: '';
+  position: absolute;
+ top: 0;
+ left:0;
+ bottom:0;
+  width: 81px;
+  /* height: 127px; */
+  background: #2e276e;
+
+  border-radius: 12px 1px 0px 12px;
+  
+}
+.shape-bgs::after{
+  position: absolute;
+  content: "";
+  z-index: 3;
+  width: 22px;
+  height: 80%;
+  left: 49px;
+  bottom: -21px;
+  border-left: 20px solid rgb(10 11 16)!important;
+  border: 11px solid hsla(0,0%,100%,0);
+  transform: rotate( 
+217deg);
+
+}
+.shape-bgs::before{
+  content: '';
+  top: -31px;
+  border-left: 20px solid rgb(10 11 16)!important;
+  border: 10px solid hsla(0,0%,100%,0);
+  transform: rotate( 
+143deg);
+  position: absolute;
+  z-index: 3;
+  width: 22px;
+  height: 91%;
+  left: 47px;
+}
+.bgo-star1::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 81px;
+  top: 0;
+  border-left: 50px solid #2e276e !important;
+  border: 64px solid transparent;
+  
+} 
 .micro-low {
   flex: 0 0 auto;
-  width: 19.8%;
+  width: 20%;
 }
 .micro {
   width: 100%;
@@ -111,7 +215,7 @@
 }
 .what {
   font-size: 15px;
-  padding-left: 22px;
+  padding-left: 15px;
   font-weight: 400;
   padding-bottom: 25px;
   margin-bottom: 0rem;
@@ -284,12 +388,22 @@
   background-color: #fff;
 }
 .video-react-has-started .video-react-control-bar {
-  margin-bottom: 60px;
+  margin-bottom: 12px;
 }
 
+.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+  /* padding-top: 52.25% !important; */
+  border-radius: 12px;
+}
 .form-check-input:checked {
   background-color: #18191b;
   border-color: transparent;
+}
+.video-react .video-react-video {
+border-radius: 15px;
 }
 .video-react .video-react-big-play-button:before {
   content: "";
@@ -341,7 +455,9 @@
 .img-end {
   background-image: url("../Images/Microsoft.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  border-radius: 11px;
+  
 }
 
 .rightinf {
@@ -455,7 +571,7 @@ content: url(../Images/playic.svg);
 
 .micro-top {
   flex: 0 0 auto;
-  width: 39.333333%;
+  width: 40%;
 }
 
 .lst-11 {
@@ -508,11 +624,14 @@ ul {
 
   }
   .star-4{
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
   .mirc-img{
     display: none;
   }
+  .how0it {
+    padding-top: 0px;
+}
 }
 @media screen and (min-width: 320px) and (max-width: 490px) {
   .containe {
@@ -559,7 +678,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding-left: 0px;
-    padding-right: 12px;
+    padding-right: 19px;
   }
   .uppr-time {
     font-size: 13px;
@@ -576,7 +695,7 @@ ul {
     padding: 0px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 420px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
   .uppr-time {
     font-size: 10px;
   }
@@ -585,6 +704,11 @@ ul {
     color: rgb(236 230 252);
     cursor: pointer;
     font-size: 11px;
+  }
+  .micro-low {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 12px;
   }
   .img-end {
     background-image: url("../Images/Microsoft.png");
@@ -595,6 +719,14 @@ ul {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .poster-o {
     padding-top: 27px;
+  }
+  .contain{
+    padding-top: 91px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contain{
+    padding-top: 91px;
   }
 }
 @media screen and (min-width: 1420px) and (max-width: 2600px) {

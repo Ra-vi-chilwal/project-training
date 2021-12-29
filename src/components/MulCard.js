@@ -1,13 +1,19 @@
 import React from "react";
 import Microsoft from "../Images/Microsoft.png";
+
 function MulCard(){
+
 return(
+
     <>
         <div className="sec-2">
+       
+      
+   
             <h2 className="text-light ">StarStake Geeting Started Millstone</h2>
             <div className="pt-3">
               <div className="row">
-                <div className="col-xl-2 col-6 micro-low">
+                <div className="col-xl-2 col-sm-12 col-6 micro-low">
                   <div className="card  star-01">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -23,10 +29,14 @@ return(
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
-                  <div className="card bgo-star ">
-                    <div className="boot-cls">
-                      <div className="d-flex boot">
+                <div className=" micro-low">
+                  <div className="card bgo-star1  ">
+                  <div className="shape-bgs"> </div> 
+                
+                  <div className="shape-point arrow-pointer position-relative">
+                    <div className="boot-cls ">
+                      <div className="d-flex boot ">
+                    
                         <p className="card01">02</p>
                         <input
                           className="form-check-input box-01"
@@ -34,12 +44,17 @@ return(
                           value=""
                           id="flexCheckDefault"
                         />
+                       
+                          
+                      
                       </div>
                       <p className="what text-light">What's iNFTs</p>
                     </div>
                   </div>
+                  </div>
+                 
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -55,7 +70,7 @@ return(
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -71,7 +86,7 @@ return(
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                 <div className="star-4">
                   <div className="card bgo-star ">
                     <div className="boot-cls">
@@ -90,7 +105,7 @@ return(
                   </div>
                 </div>
               
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
@@ -108,7 +123,7 @@ return(
                   </div>
                 </div>
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                 <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
@@ -126,7 +141,7 @@ return(
                   </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-6 micro-low">
+                <div className=" micro-low">
                 <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
@@ -144,7 +159,7 @@ return(
                   </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-12 micro-top">
+                <div className="micro-top">
                 <div className="how0it"> 
                   <div className="img-end">
                     <div className=" star-pu">
