@@ -8,13 +8,17 @@
   background-size: cover;
   width: 100%;
 }
+.backgr-img{
+  z-index: 1;
+}
 .backgr-img::after{
   content: "";
 background-image: url("../Images/Micr.png");
 position: absolute;
 background-size:100% 100%;
 top: -270px;
-left: -50%;
+left: 3%;
+width: 100%;
 right: -50%;
 bottom: 0;
 background-size: 100% 100%;
@@ -27,6 +31,7 @@ background-size: 100% 100%;
 .mirc-img{
   background-size: cover;
     width: 100%;
+
 }
 .contain {
   padding-top: 55px;
