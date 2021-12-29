@@ -9,6 +9,7 @@ function Navba() {
 <Navbar collapseOnSelect expand="lg" bg="" variant="dark">
   <div className="container-fluid card-mr">
   <Navbar.Brand href="#home" className="top-logo">StarStake</Navbar.Brand>
+ 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto mb-2 mb-lg-0">
@@ -16,9 +17,12 @@ function Navba() {
       <Nav.Link href="#pricing" className=" text-light links-Nav_Y2Y">How it works</Nav.Link>
       <Nav.Link href="#features" className="text-light links-Nav_Y2Y">Be a Star</Nav.Link>
       <Nav.Link href="#pricing" className=" text-light links-Nav_Y2Y">Resorces</Nav.Link>
+      <div className="mobile-btn">
       <button type="button" className="btn btn-connect-wallet">
                     <span className="btn-wallet"><strong>Stake</strong></span>
                   </button>
+                  </div>
+                  <div className="mobile-btn">
                   <button
                     type="button"
                     id="btn-57-nav"
@@ -26,6 +30,8 @@ function Navba() {
                   >
                     <span className="btn-waal"><strong className="text-light">$10,000 NFTB</strong></span>
                   </button>
+                  </div>
+                  <div className="mobile-btn">
                   <button
                     type="button"
                     id="btn-57-nav"
@@ -33,18 +39,20 @@ function Navba() {
                   >
                     <span className="btn-wallet"><strong>0xBBB6...E96e</strong></span>
                   </button>
+                  </div>
+                  <div className="mobile-btn">
                   <button className="btn text-light  nav_bell" type="button">
                     <i className="fas fa-bell ">
                       <span className="bell_0 text-light"> 10</span>
                     </i>
                   </button>
-                  <span className="img-wallet mar-01">
-                    <img className="wakk" alt="" src={wallet} />
+                    <img className="img-wallet mar-01" className="wakk" alt="" src={wallet} />
+                    <img className="img-cart mar-01" alt="" src={cartIcon} />
+                  </div>
+                  <span >
                    
                   </span>
-                  <span className="img-cart mar-01 mar-tp">
-                    <img  alt="" src={cartIcon} />
-                  </span>
+                 
     </Nav>
     
   </Navbar.Collapse>

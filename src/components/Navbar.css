@@ -3,6 +3,7 @@
 }
 .wakk{
   margin-right: 3px;
+  margin-top: 3px;
 }
 .links-Nav_Y2Y{
 
@@ -28,7 +29,7 @@
       margin: 0px 14px;
       border-radius: 100px;
       font-family: "Poppins";
-      padding:0px 26px 0px 13px;
+      padding: 6px 26px 6px 13px;
   }
   .card-mr{
     margin-right: 30px;
@@ -45,7 +46,7 @@
   .mar-01{
     margin-left: 4px;
     margin-right: 4px;
-    padding-top: 5px;
+    padding-top: 2px;
 
   }
   .navbar-nav > button{
@@ -65,6 +66,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-family: "Poppins";
+      font-size: 14px;
   }
   .btn-connect-wallet{
     margin: 0px 1px;
@@ -80,12 +82,13 @@
 .btn-waal{
     color: white;
     padding-right: 12px;
+    font-size: 14px;
 }
 
 .nav_bell{
     background: #3d23d4;
     border-radius: 25px;
-    padding: 2px 12px 2px 12px;
+    padding: 2px 8px 2px 8px;
     margin: 6px 9px;
     font-size: 11px;
     box-shadow: 0 1px 2px #3d23d4, inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
@@ -99,6 +102,7 @@
     .market-1 {
       margin-left: 0px;
   }
+ 
   .navbar-nav > button {
     /* margin-left: 12px; */
     margin-right: 12px;
@@ -115,12 +119,21 @@
   padding-left: 0px;
 }
   }
-  @media  screen and (min-width:340px)and (max-width:991px) {
+  @media  screen and (min-width:320px)and (max-width:991px) {
     .links-Nav_Y2Y{
      display: flex;
     text-align: center;
   
     }
+    .mobile-btn{
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+    .bg-colr {
+     
+      padding: 6px 5px 6px 11px;
+  }
     .market-1 {
       margin-left: 0px;
   }
@@ -136,5 +149,8 @@
 .navbar-expand-lg .navbar-nav .nav-link {
   /* padding-right: 1.5rem; */
   padding-left: 2.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
   }

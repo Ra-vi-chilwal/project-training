@@ -72,6 +72,7 @@ return(
                   </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
+                <div className="star-4">
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -83,13 +84,14 @@ return(
                           id="flexCheckDefault"
                         />
                       </div>
-                      <p className="what text-light">What's iNFTs</p>
+                      <p className="what text-light">Mint Your First iNFTs</p>
                     </div>
                   </div>
+                  </div>
                 </div>
-              </div>
-              <div className="row how0it">
+              
                 <div className="col-xl-2 col-6 micro-low">
+               <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -105,7 +107,9 @@ return(
                     </div>
                   </div>
                 </div>
+                </div>
                 <div className="col-xl-2 col-6 micro-low">
+                <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -120,8 +124,10 @@ return(
                       <p className="what text-light">Mint Your Access Token</p>
                     </div>
                   </div>
+                  </div>
                 </div>
                 <div className="col-xl-2 col-6 micro-low">
+                <div className="how0it"> 
                   <div className="card bgo-star ">
                     <div className="boot-cls">
                       <div className="d-flex boot">
@@ -136,8 +142,10 @@ return(
                       <p className="what text-light">Mint Your Access Token</p>
                     </div>
                   </div>
+                  </div>
                 </div>
                 <div className="col-xl-4 col-12 micro-top">
+                <div className="how0it"> 
                   <div className="img-end">
                     <div className=" star-pu">
                       <span className=" stardex">
@@ -156,6 +164,7 @@ return(
                    
                     {/* <img className="micro " src={Microsoft} alt="" /> */}
                   </div>
+                </div>
                 </div>
               </div>
             </div>

@@ -17,11 +17,13 @@ function Getstart() {
      <section className="count-pg">
       <div className="get-start">
         <div className="containe">
-          <h2 className="text-light h2-font">
+        <div className="d-flex spce">
+         
             {" "}
-            <img className="poback" alt="" src={backIcon} /> Get Started with StarStake
+            <img className="poback" alt="" src={backIcon} /> 
+             <h2 className="text-light h2-font">Get Started with StarStake
           </h2>
-
+</div>
           <p className="text-light details">
             A detailed training className on how to get startednusing StarStake.{" "}
           </p>
