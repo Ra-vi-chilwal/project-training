@@ -26,7 +26,7 @@ function Getstart() {
             </p>
           </div>
           <div className="   containe pt-5">
-            <div className="position-relative backgr-img">
+            <div className="backgr-img">
               <div className="row ">
                 <div className="col-xl-5 col-md-6 col-12">
                   {/* <img className="position-absolute  mirc-img" src={micr}/> */}
