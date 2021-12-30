@@ -1,0 +1,49 @@
+.branch-co{
+    background-color: #04050a;
+    overflow: hidden;
+}
+.Branch-0{
+   
+    background-color: #08090e;
+    padding: 100px 31px 0px 31px;
+}
+.bs-pro{
+    overflow: hidden;
+}
+.active {
+    
+    background:rgba(121, 81, 230, 0.1);
+    border-radius: 3px;
+    color: #5454c7;
+ 
+    font-size: 14px;
+}
+ul{
+    list-style-type:none;
+    font-size: 14px;
+    font-weight: 400;
+}
+li{
+    color: #ababab;
+    text-decoration: none;
+    display: flex;
+   cursor: pointer;
+    padding: 10px;
+}
+.h-li{
+    margin-top: 12px;  
+    font-weight: 600;
+}
+.head-li{
+  margin-top: 30px;
+  font-size: 12px;
+    font-weight: 600;
+}
+.li-hv:hover{
+    background:rgba(121, 81, 230, 0.1);
+    border-radius: 3px;
+    color: #5454c7;
+    
+  
+    font-size: 14px;
+}
