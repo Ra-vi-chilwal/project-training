@@ -26,12 +26,12 @@ function Getstart() {
             </p>
           </div>
           <div className="   containe pt-5">
-            <div className="backgr-img">
-              <div className="row ">
+            <div className="backgr-img position-relative">
+              <div className="position-relative row " >
                 <div className="col-xl-5 col-md-6 col-12">
-                  {/* <img className="position-absolute  mirc-img" src={micr}/> */}
+                  
                   <div className="card bg-card1">
-                    <ul className="position-relative">
+                    <ul className="position-relative ul-po">
                       <li className="d-flex h-head li-pd">
                         <div>
                           <span className="uppr-time">

@@ -11,6 +11,9 @@
 .backgr-img{
   z-index: 1;
 }
+.ul-po{
+  z-index: 1;
+}
 .backgr-img::after{
   content: "";
 background-image: url("../Images/Micr.png");
@@ -203,7 +206,7 @@ width: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
-  left: 81px;
+  left: 80px;
   top: 0;
   border-left: 50px solid #2e276e !important;
   border: 64px solid transparent;
@@ -234,7 +237,7 @@ width: 100%;
 }
 .star-01 {
   border-radius: 10px;
-  background: rgb(27 19 57);
+  background: rgb(50 41 105);
 }
 .bgo-star {
   border-radius: 10px;
@@ -251,7 +254,7 @@ width: 100%;
 .box-2 {
   width: 40px;
   height: 40px;
-  background: rgb(32 21 62);
+  background: rgb(56 48 110);
   border: none;
 }
 .box-2:checked {
@@ -381,6 +384,7 @@ width: 100%;
   border-radius: 16px;
   background: #26292e;
   border: none;
+  z-index: 1;
 }
 .video-react:hover .video-react-big-play-button,
 .video-react .video-react-big-play-button:focus {
@@ -740,3 +744,9 @@ ul {
     width: unset;
   }
 }
+@media  screen and (min-width:320px)and (max-width:420px) {
+  .li-pd {
+    padding: 11px 9px 12px 6px;
+    border-left: 3px solid transparent;
+}
+  }

@@ -1,6 +1,20 @@
 /* hover effect */
 
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.55);
+  border: none;
+}
 
+
+.navbar-toggler {
+    padding: 0rem;
+    font-size: 1.1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
 
 /*  */
 
@@ -88,6 +102,9 @@
     background: rgb(28 25 36);;
     
   }
+  .mr-logo{
+    margin-bottom: 6px;
+  }
   .btn-ox{
     margin-left: -44px;
   }
@@ -141,6 +158,12 @@
      display: flex;
     text-align: center;
   }
+  .card-mr {
+    margin-right: 0px;
+   
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
   .btn-for-0{
     display: none;
   }

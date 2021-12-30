@@ -4,13 +4,14 @@ import './Navbar.css';
 import wallet from "../Images/wallet-icon-A.svg";
 import cartIcon from "../Images/CartIcon.svg";
 import donload from "../Images/download.png";
+import logo from "../Images/logo.png";
 function Navba() {
   return (
    
    <>
 <Navbar collapseOnSelect expand="lg" bg="" variant="dark" fixed="top">
   <div className="container-fluid card-mr">
-  <Navbar.Brand href="#home" className="top-logo">StarStake</Navbar.Brand>
+  <Navbar.Brand href="#home" className="top-logo"><img className="mr-logo" src={logo}/> StarStake</Navbar.Brand>
  <div className="icon-for">
  <button className="btn text-light  nav_bell" type="button">
                     <i className="fas fa-bell ">
