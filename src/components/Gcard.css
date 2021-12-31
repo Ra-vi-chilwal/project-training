@@ -1,6 +1,9 @@
 .Gcard-org{
    
 }
+.img-con{
+    padding: 103px 44px;
+}
 .Mask-img{
    
    
@@ -9,9 +12,19 @@
 .four-cal{
     margin-left: 26px;
 }
+.money{
+    font-size: 27px;
+    font-weight: 600;
+    /* margin-right: 19px; */
+}
+.earn{
+    color:#b0aeb4;
+}
 .values-0{
     text-align: start;
-    padding-top: 83px;
+    padding-left: 80px;
+    padding-top: 37px;
+    justify-content: space-between;
 }
 .rupees{
     background: #6b5bd5;
@@ -20,10 +33,10 @@
     background: #6b5bd5;
     border-radius: 6px;
     padding: 5px;
-    margin-left: 298px;
+    margin-left: 266px;
     display: flex;
     justify-content: center;
-margin-top: 90px;    
+margin-top: 77px;    
 }
 .earning{
     margin-top: 10px;
@@ -47,7 +60,7 @@ margin-top: 90px;
     text-align: end;
 }
 .class-logo{
-    padding-top: 65px;
+    padding-top: 0px;
 }
 .center-deop{
 padding-right: 50px;
@@ -98,18 +111,124 @@ p {
 .top-up{
     justify-content: space-between;
 }
+.img-card{
+    background-image: url("../Images/Mask.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .name-5{
-    padding: 40px 7px;
+    padding: 35px 7px;
+    margin-top: 9px;
 }
 .top-img{
-    padding: 99px 6px 0px 19px;
+    padding: 38px 6px 0px 31px
 } 
 .lady-img{
     width: 200px;
     border-radius: 50%;
     border: 6px solid #6b5bd5;
 }  
-.lady{
+/* .lady{
     padding-top: 50px;
     padding-left: 35px;
+} */
+
+/* tabs css */
+.btn-col{
+    border-radius: 27px;
+    padding: 1px 6px;
+    background: #0c0c11;
+    border: transparent;
+    color: white !important;
+}
+.btn-col:hover{
+    background-color: rgb(88 87 206);
+     
+}
+.act{
+    color: white;
+}
+.prop-ty{
+    justify-content: space-between;
+    padding-top: 34px;
+}
+.my-prop{
+    font-size: 24px;
+    color: #fff;
+}
+.act:hover{
+    color: white;
+}
+.tabs-yp{
+    padding-top: 30px;
+}
+.second-btn{
+    margin-left: 14px;
+}
+.multi-sel{
+    width: 30%;
+}
+.searchWrapper {
+    border: none !important;
+    border-radius: 28px !important;
+    padding: 10px !important;
+    background: #0c0c11;
+    min-height: 22px;
+    position: relative;
+}
+.multiSelectContainer input {
+    width: 20%;
+    border: none;
+    margin-top: 3px;
+    background: transparent;
+    margin-left: 16px;
+}
+.chip {
+    padding: 4px 10px;
+    background: rgb(54 17 156) !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 11px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 19px;
+    color: #fff;
+}
+.optionListContainer {
+    position: absolute;
+    width: 100%;
+    background: #e2e2e4 !important;
+    border-radius: 4px;
+    margin-top: 1px;
+    z-index: 2;
+}
+.highlightOption {
+    background: #816fcf !important;
+    color: #fff;
+}
+.multiSelectContainer li {
+    /* background: #46328f !important;
+    color: #fff;
+    cursor: pointer; */
+    border-radius:4px;
+    /* border:1px solid rgb(14, 13, 13); */
+}
+.multiSelectContainer li:hover {
+    background: #46328f !important;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.multiSelectContainer ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(240, 235, 235) !important;
+    border-radius: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.mul-top{
+    padding-top: 40px;
 }

@@ -4,14 +4,15 @@ import "./Gcard.css";
 import logo from "../Images/logo.png";
 import lady from "../Images/lady.png";
 import {Dropdown} from "react-bootstrap"
+import Tabs from "./Tabs";
 function Gcard() {
   return (
     <>
       <section className="Gcard-org">
-      <div className="container">
+      <div className="container img-con">
           <div className="img-card">
             <div className="top-img">
-              <img className="Mask-img" src={Mask} alt="" />
+              {/* <img className="Mask-img" src={Mask} alt="" /> */}
              
        <div className="row">
            <div className="col-3">
@@ -53,19 +54,23 @@ function Gcard() {
 <div>
   <h2 className="position-relative text-light earning">Earning</h2>
 </div>
-      <div className="position-relative values-0">
+      <div className="d-flex values-0">
+      <div>
              <h3 className="text-light four-cal">4</h3>
              <p className="text-light">iNFTs Active</p>
-
+             </div>
+             <div>
+             <p className="text-light money">$130,000</p>
+             <p className="earn">Earning From iNFTs</p>
            </div>
-           <div>
-             <p>$130,000</p>
            </div>
+          
                 </div>
            </div>
        </div>
        </div>
        </div>
+       <Tabs />
        </div>
       </section>
     </>
