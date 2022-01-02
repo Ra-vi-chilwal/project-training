@@ -15,7 +15,7 @@ function Gcard() {
               {/* <img className="Mask-img" src={Mask} alt="" /> */}
              
        <div className="row">
-           <div className="col-3">
+           <div className="col-xl-4 col-md-4 col-12 ab-index">
            <div className="lady position-relative">
                   <img className="lady-img" src={lady} alt="" />
                   <div className="name-5">
@@ -24,22 +24,28 @@ function Gcard() {
                   </div>
                 </div>
            </div>
-           <div className="col-4">
+           <div className="col-xl-3 col-md-4 col-12 ab-index cop">
            <div className="  class-logo position-relative">
-                 
+           <div className="d-flex">
+           <img className="logo-in" src={logo} />
                     <p className=" loyo">
-                      <img src={logo} /> StarStake
+                     StarStake
                     </p>
+                    </div>
                   <span className="my text-light">My iNFT</span>
                   </div>
-            
+                 {/* tab view */}
+                 <div className="mob">
+             <h3 className="text-light ">4</h3>
+             <p className="text-light">iNFTs Active</p>
+             </div>
            </div>
            
-           <div className="col-5 center-deop">
-           <div className="class-logo drop-down-0">
+           <div className="col-xl-5 col-md-4 col-12 ab-index center-deop">
+           <div className="class-logo lolo-0 drop-down-0">
            <Dropdown>
-  <Dropdown.Toggle className="bg-dp" id="dropdown-basic">
-    All Time
+  <Dropdown.Toggle className="bg-dp " id="dropdown-basic">
+    All Time <i class='fas fa-angle-down ad'></i>
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
@@ -48,17 +54,18 @@ function Gcard() {
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
-<div className="rupees position-relative drop-down-0">
-  <span>$130,000</span>
+<div className=" drop-down-0">
+  <button className="rupees">$130,000</button>
 </div>
 <div>
-  <h2 className="position-relative text-light earning">Earning</h2>
+  <h2 className="position-relative text-light earning">Earnings</h2>
 </div>
       <div className="d-flex values-0">
-      <div>
+      <div className="screen">
              <h3 className="text-light four-cal">4</h3>
              <p className="text-light">iNFTs Active</p>
              </div>
+        
              <div>
              <p className="text-light money">$130,000</p>
              <p className="earn">Earning From iNFTs</p>
