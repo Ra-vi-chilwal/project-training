@@ -7,6 +7,8 @@ import {Dropdown} from "react-bootstrap"
 import Tabs from "./Tabs";
 import image22 from "../Images/image22.png";
 import Navtab from "./Navtab";
+import editpen from "../Images/editpen.svg";
+import starprofileicon from "../Images/starprofileicon.svg";
 function Gcard() {
   return (
     <>
@@ -22,7 +24,8 @@ function Gcard() {
                   <img className="lady-img" src={lady} alt="" />
                   <div className="name-5">
                     <p className="Name text-light">Shaeng Belmonte</p>
-                    <p className="edit ">Edit my profile</p>
+                    <div className="d-flex flo-0"> <p className="edit ">Edit my profile</p> <img className="pen-img" src={editpen} alt="" /></div>
+                   
                   </div>
                 </div>
            </div>
@@ -32,7 +35,7 @@ function Gcard() {
                    <img className="img-22" src={image22}/>
                  </div>
            <div className="  class-logo position-relative">
-           <div className="d-flex">
+           <div className="d-flex lol0">
            <img className="logo-in" src={logo} />
                     <p className=" loyo">
                      StarStake
@@ -76,7 +79,7 @@ function Gcard() {
         
              <div>
              <p className="text-light money">$130,000</p>
-             <p className="earn">Earning From iNFTs</p>
+             <div className="d-flex"><img className="star-img" src={starprofileicon} alt=""/><p className="earn">Earning From iNFTs</p></div>
            </div>
            </div>
           

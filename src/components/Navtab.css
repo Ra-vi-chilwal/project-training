@@ -6,7 +6,16 @@
     border: transparent;
     color: white !important;
 }
-  
+.btn-col2:focus{
+  background-color: rgb(88 87 206)!important;
+}
+.btn-col2:hover{
+  border-radius: 27px;
+  padding: 9px 21px;
+  background: #0c0c11;
+  border: transparent;
+  color: white !important;
+}
   .bloc-tabs {
     display: flex;
   }
@@ -17,7 +26,7 @@
   }
  
   .tabs{
-    color: white;
+    color: white !important;
     text-decoration: none !important; 
   }
   
@@ -47,3 +56,24 @@
   .active-content {
     display: block;
   }
+  @media  screen and (min-width:320px)and (max-width:991px) {
+
+
+.btn-col2 {
+  font-size: 12px;
+}
+.nav {
+  justify-content: center;
+}
+.content p {
+  
+  height: 100%;
+  font-size: 13px;
+}
+.act {
+  color: white;
+  font-size: 13px;
+}
+  }
+ 
+  

@@ -10,6 +10,7 @@ import iNFTicon from "../Images/iNFTicon.svg";
 import accesstoken from "../Images/accesstokensicon.svg";
 import NFTbucksicon from "../Images/NFTbucksicon.svg";
 import Supporticon from "../Images/Supporticon.svg";
+import "./Modal/Modal.css"
 function Branch(){
   const [mobile , setMobile] = useState(false)
     return(

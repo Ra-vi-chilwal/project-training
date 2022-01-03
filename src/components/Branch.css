@@ -72,8 +72,7 @@ li{
        display :none
     }
     .Branch-0 {
-        width: 50px;
-        padding: 116px 0px 3px 1px;
+       display: none;
     }
     .h-li{
         display: none;
@@ -83,5 +82,8 @@ li{
     }
     .mob-zone{
      padding: 15px;
+    }
+    .activ {
+        display: none;
     }
 }

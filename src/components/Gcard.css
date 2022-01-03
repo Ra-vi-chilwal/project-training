@@ -1,6 +1,6 @@
 
 .cop{
-    padding-top: 16px;
+    padding-top: 12px;
 
 }
 .img-22{
@@ -13,7 +13,7 @@
     
 }
 .img-con{
-    padding: 103px 44px;
+    padding: 119px 33px;
 }
 .Mask-img{
    
@@ -77,6 +77,33 @@ line-height: 23px;
     color: #d6d6d6;
     font-weight: 600;
 }
+.star-img{
+    margin-bottom: 8px;
+    padding-right: 5px;
+}
+.dropdown-menu {
+   color: #fff;
+    background-color: #141313;
+    border-radius: 10px;
+  
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #e6e8ea;
+    
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f1f1f1;
+    background-color: #131212;
+}
+.pen-img{
+    padding-left: 6px;
+    margin-bottom: 3px;
+}
 .drop-down-0{
     
     text-align: end;
@@ -85,7 +112,7 @@ line-height: 23px;
     line-height: 34px;
 }
 .center-deop{
-padding-right: 41px;
+padding-right: 31px;
 }
 p {
     margin-top: 0;
@@ -96,9 +123,15 @@ p {
     font-weight: 500;
     color: #d6d6d6;
 }
+.multiSelectContainer {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+}
 .btn-primary:hover {
     color: #fff;
-    background-color:#00000066;
+    background-color:#0c0c11;
     border-color: none;
 }
  .btn-primary:focus {
@@ -140,13 +173,18 @@ p {
     padding: 7px 9px;
 
 }
+.bg-dp:hover{
+    background: #00000066 !important;
+    border: transparent;
+    padding: 7px 9px;
+}
 /* .act{
    
     background: linear-gradient(to right, rgb(54, 17, 156) -11%, transparent 15%);
 } */
 .bg-dp:focus{
     background: #00000066;
-    border: transparent;
+    border: transparent !important;
     padding: 7px 11px;
 
 }
@@ -179,12 +217,19 @@ p {
     margin-top: 9px;
 }
 .top-img{
-    padding: 38px 6px 0px 31px
+    padding: 32px 6px 0px 31px
 } 
 .lady-img{
-    width: 266px;
+    width: 274px;
     border-radius: 50%;
-    border: 7px solid #6b5bd5;
+    position: relative;
+    border: 4px solid transparent;
+  
+    background: linear-gradient(rgb(61, 48, 172), rgb(155, 71, 155));
+    background-clip: padding-box;
+    padding: 7px;
+    /* just to show box-shadow still works fine */
+    
 }  
 /* .lady{
     padding-top: 50px;
@@ -218,7 +263,11 @@ p {
     color: white;
 }
 .tabs-yp{
-    padding-top: 30px;
+    padding-top: 50px;
+}
+.fa-play:before {
+    content: "\f04b";
+    padding-left: 12px;
 }
 .second-btn{
     margin-left: 14px;
@@ -314,7 +363,7 @@ p {
 }
 .col-w{
     flex: 0 0 auto;
-    width: 30.333333%;
+    width: 29.333333%;
   }
   .col-w1 {
     flex: 0 0 auto;
@@ -326,6 +375,7 @@ p {
 }
 .img-cd{
     border-radius: 15px 15px 0px 0px;
+    width: 100%;
 }
 .btn-col-2{
     border-radius: 10px;
@@ -364,7 +414,7 @@ p {
     color: #d6d6d6;
 }
 .start-car {
-    margin-top: 160px;
+    margin-top: -15px;
     margin-left: 17px;
     background: rgb(88 87 206);
     border-radius: 8px;
@@ -431,4 +481,37 @@ p {
 .cop {
    text-align: center;
 }
+}
+@media  screen and (min-width:320px)and (max-width:600px) {
+    .col-w {
+        flex: 0 0 auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .col-w1 {
+        flex: 0 0 auto;
+        width:100%;
+      }
+      .img-card::after {
+          display: none;
+      }
+      .class-logo {
+        text-align: center;
+    }
+    .flo-0{
+        justify-content: center;
+    }
+    .lol0{
+        justify-content: center;
+    }
+    .drop-down-0 {
+        text-align: center;
+    }
+    .values-0 {
+        text-align: start;
+        padding-left: 0px;
+        padding-top: 76px;
+        justify-content: space-between;
+    }
 }
