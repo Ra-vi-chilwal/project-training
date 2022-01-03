@@ -87,7 +87,9 @@ function Navba() {
          <Route path="/">
             <Getstart />
          </Route>
-      
+         {/* <Route path="/Tabs">
+            <Tabs />
+         </Route> */}
      </Switch>
    </div>
    </Router>

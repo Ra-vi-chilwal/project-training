@@ -6,13 +6,14 @@ import Navba from "./components/Navbar";
 
 import Getstart from "./components/Getstart";
 import Branch from "./components/Branch";
+
 function App() {
   return (
    <>
  
   
     <Navba />
-    
+   
     {/* <Getstart /> */}
    </>
   );

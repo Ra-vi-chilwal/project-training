@@ -5,7 +5,7 @@
 .Branch-0{
    
     background-color: #08090e;
-    padding: 100px 31px 0px 31px;
+    padding: 112px 25px 0px 25px;
 }
 .bs-pro{
     overflow: hidden;
@@ -23,23 +23,39 @@ ul{
     font-size: 14px;
     font-weight: 400;
 }
+.activ{
+    color: #5454c7;
+}
 li{
     color: #ababab;
     text-decoration: none;
     display: flex;
    cursor: pointer;
-    padding: 10px;
+    padding: 14px;
 }
 .h-li{
     margin-top: 12px;  
     font-weight: 600;
+    padding-left: 0px;
+}
+.pd-hub{
+    padding-left: 15px;
 }
 .head-li{
   margin-top: 30px;
-  font-size: 12px;
+  font-size: 14px;
     font-weight: 600;
+    padding-left: 0px;
 }
 .li-hv:hover{
+  
+    border-radius: 3px;
+    color: #5454c7;
+    
+  
+    font-size: 14px;
+}
+.li-hv:focus{
     background:rgba(121, 81, 230, 0.1);
     border-radius: 3px;
     color: #5454c7;
@@ -47,6 +63,7 @@ li{
   
     font-size: 14px;
 }
+
 @media  screen and (min-width:320px)and (max-width:991px) {
     .li-hv{
         display: none;

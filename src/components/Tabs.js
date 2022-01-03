@@ -3,6 +3,7 @@ import { Multiselect } from "multiselect-react-dropdown";
 import { Dropdown } from "react-bootstrap";
 import logo from "../Images/logo.png";
 import c1 from "../Images/c1.png";
+import Modal from "../components/Modal/Modal"
 function Tabs() {
   const data = [
     { language: "React", id: 1 },
@@ -14,28 +15,11 @@ function Tabs() {
   const [options] = useState(data);
   return (
     <>
-      <div className="tabs-yp">
-        <nav class="nav">
-          <button className="btn-col">
-            <a className="nav-link act " aria-current="page" href="#">
-              Dashboard
-            </a>
-          </button>
-          <button className="btn-col second-btn">
-            <a className="nav-link act " aria-current="page" href="#">
-              My iNFTs
-            </a>
-          </button>
-          <button className="btn-col second-btn">
-            <a className="nav-link act " aria-current="page" href="#">
-              iNFTs in progress
-            </a>
-          </button>
-        </nav>
-      </div>
+   
       <div className="d-flex prop-ty">
         <p className="my-prop">My iNFTs</p>
         <div>
+        
           <button className="btn-col-3">
             <a className="nav-link act " aria-current="page" href="#">
               iNFT Tutorial <i class="fas fa-play"></i>
@@ -54,7 +38,7 @@ function Tabs() {
         </div>
         <Dropdown>
           <Dropdown.Toggle className="bg-second" id="dropdown-basic">
-            Type<i class='fas fa-angle-down ad'></i>
+            Type<i class='fas fa-angle-down ads'></i>
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
@@ -71,7 +55,7 @@ function Tabs() {
               <img className="img-cd" src={c1} alt="" />
               <div className="position-absolute start-car d-flex">
                 <img className="img-p0" src={logo} alt />
-                <p className="star-m"> Starstake | music</p>
+                <span className="star-m"> Starstake | music</span>
               </div>
               <div className="card-body">
                 <p className="text-light pt-3">
@@ -97,7 +81,7 @@ function Tabs() {
               <img className="img-cd" src={c1} alt="" />
               <div className="position-absolute start-car d-flex">
                 <img className="img-p0" src={logo} alt />
-                <p className="star-m"> Starstake | music</p>
+                <span className="star-m"> Starstake | music</span>
               </div>
               <div className="card-body">
                 <p className="text-light pt-3">
@@ -123,7 +107,7 @@ function Tabs() {
               <img className="img-cd" src={c1} alt="" />
               <div className="position-absolute start-car d-flex">
                 <img className="img-p0" src={logo} alt />
-                <p className="star-m"> Starstake | music</p>
+                <span className="star-m"> Starstake | music</span>
               </div>
               <div className="card-body">
                 <p className="text-light pt-3">
@@ -150,7 +134,7 @@ function Tabs() {
               <img className="img-cd" src={c1} alt="" />
               <div className="position-absolute start-car d-flex">
                 <img className="img-p0" src={logo} alt />
-                <p className="star-m"> Starstake | music</p>
+                <span className="star-m"> Starstake | music</span>
               </div>
               <div className="card-body">
                 <p className="text-light pt-3">
@@ -172,6 +156,7 @@ function Tabs() {
             </div>
           </div>
         </div>
+      
       </div>
     </>
   );

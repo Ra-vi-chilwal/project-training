@@ -1,9 +1,11 @@
-.Gcard-org{
-   
-}
-.cop{
-    padding-top: 34px;
 
+.cop{
+    padding-top: 16px;
+
+}
+.img-22{
+    width: 94%;
+    padding-top: 83px;
 }
 .logo-in{
     width: 32px;
@@ -83,14 +85,14 @@ line-height: 23px;
     line-height: 34px;
 }
 .center-deop{
-padding-right: 50px;
+padding-right: 41px;
 }
 p {
     margin-top: 0;
     margin-bottom: 0.1rem;
 }
 .Name{
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 500;
     color: #d6d6d6;
 }
@@ -290,13 +292,34 @@ p {
 }
 .bg-second{
     border-radius: 27px;
-    padding: 11px 64px;
+    padding: 11px 16px;
     background: #0c0c11;
     border: transparent;
     margin-left: 30px;
+    color: rgb(170 169 168)!important;
 
-    color: white !important;
+    
 }
+
+.bg-second:focus{
+    border-radius: 27px;
+    padding: 11px 16px;
+
+    background: #0c0c11 !important;
+    border: transparent!important;
+    margin-left: 30px;
+    color: rgb(170 169 168)!important;
+
+    
+}
+.col-w{
+    flex: 0 0 auto;
+    width: 30.333333%;
+  }
+  .col-w1 {
+    flex: 0 0 auto;
+    width: 43.666667%;
+  }
 .c-card{
     background: rgb(11 12 17);
     border-radius: 15px;
@@ -359,6 +382,11 @@ p {
     padding-left: 4px;
     color: rgb(255 255 255);
     font-weight: 400;
+}
+.ads{
+    padding-left: 146px;
+    padding-top: 2px;
+    color:rgb(170 169 168) !important;
 }
 /* media query */
 @media  screen and (min-width:768px)and (max-width:1200px) {

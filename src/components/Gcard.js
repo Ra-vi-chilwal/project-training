@@ -5,6 +5,8 @@ import logo from "../Images/logo.png";
 import lady from "../Images/lady.png";
 import {Dropdown} from "react-bootstrap"
 import Tabs from "./Tabs";
+import image22 from "../Images/image22.png";
+import Navtab from "./Navtab";
 function Gcard() {
   return (
     <>
@@ -15,7 +17,7 @@ function Gcard() {
               {/* <img className="Mask-img" src={Mask} alt="" /> */}
              
        <div className="row">
-           <div className="col-xl-4 col-md-4 col-12 ab-index">
+           <div className="col-xl-4 col-md-4 col-12 ab-index col-w">
            <div className="lady position-relative">
                   <img className="lady-img" src={lady} alt="" />
                   <div className="name-5">
@@ -24,7 +26,11 @@ function Gcard() {
                   </div>
                 </div>
            </div>
+           
            <div className="col-xl-3 col-md-4 col-12 ab-index cop">
+           <div className="position-absolute">
+                   <img className="img-22" src={image22}/>
+                 </div>
            <div className="  class-logo position-relative">
            <div className="d-flex">
            <img className="logo-in" src={logo} />
@@ -35,13 +41,15 @@ function Gcard() {
                   <span className="my text-light">My iNFT</span>
                   </div>
                  {/* tab view */}
+               
                  <div className="mob">
              <h3 className="text-light ">4</h3>
              <p className="text-light">iNFTs Active</p>
              </div>
            </div>
            
-           <div className="col-xl-5 col-md-4 col-12 ab-index center-deop">
+           <div className="col-xl-5 col-md-4 col-12 ab-index col-w1 center-deop">
+           
            <div className="class-logo lolo-0 drop-down-0">
            <Dropdown>
   <Dropdown.Toggle className="bg-dp " id="dropdown-basic">
@@ -77,7 +85,8 @@ function Gcard() {
        </div>
        </div>
        </div>
-       <Tabs />
+      <Navtab />
+       {/* <Tabs /> */}
        </div>
       </section>
     </>
